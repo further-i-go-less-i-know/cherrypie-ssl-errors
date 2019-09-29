@@ -6,7 +6,12 @@ import os
 localDir = os.path.dirname(__file__)
 absDir = os.path.join(os.getcwd(), localDir)
 
-    
+class DownloadTwitter(object):
+    #the main application code goes here. I do not want to share this. :D Also, I do not think this data is needed
+    #to try and reproduce the error. The error seems to be in the SSL configuration somewhere in the stack of software
+    #this code sits on top of. 
+    pass
+
         
 if __name__ == "__main__":
     #configuration stuff
